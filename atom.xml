@@ -6,7 +6,7 @@
   <link href="https://geekvov.github.io/atom.xml" rel="self"/>
   
   <link href="https://geekvov.github.io/"/>
-  <updated>2023-04-09T15:13:40.647Z</updated>
+  <updated>2023-04-14T16:03:47.820Z</updated>
   <id>https://geekvov.github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>插入音乐测试</title>
-    <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"/>
-    <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-04-14T13:56:32.069Z</published>
-    <updated>2023-04-09T15:13:40.647Z</updated>
-    
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1457750078&auto=1&height=66"></iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1457</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>每日音乐鉴赏</title>
@@ -49,6 +29,26 @@
       
       
     <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=100% src=&quot;//music.163.com/outchain/player?type=2&amp;id=4</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>插入音乐测试</title>
+    <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"/>
+    <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/</id>
+    <published>2023-04-14T13:56:32.069Z</published>
+    <updated>2023-04-09T15:13:40.647Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1457750078&auto=1&height=66"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1457</summary>
       
     
     
