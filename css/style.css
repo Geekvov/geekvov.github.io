@@ -734,7 +734,7 @@ button {
   box-shadow: 0 0 0.2rem var(--shadow-color);
   cursor: zoom-in;
   opacity: 1;
-  margin: 0.8rem 0 0.2rem;
+  margin: 0.8rem auto 0.2rem;
 }
 .keep-markdown-body img.hide {
   opacity: 0;
@@ -3162,6 +3162,7 @@ pre .javascript .function {
   padding-bottom: 2rem;
   color: var(--text-color-3);
   word-wrap: break-word;
+  border-bottom: 0.1rem dashed var(--border-color);
 }
 .post-page-container .article-content-container .article-content .article-aging-tips {
   position: relative;
