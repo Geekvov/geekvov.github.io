@@ -9,8 +9,6 @@
     
     <title>
         
-            Hello World |
-        
         布谷的博客
     </title>
     
@@ -155,7 +153,7 @@
         <div class="article-content-container">
 
             <div class="article-title">
-                <span class="title-hover-animation">Hello World</span>
+                <span class="title-hover-animation"></span>
             </div>
 
             
@@ -177,13 +175,13 @@
         
             <i class="fa-regular fa-calendar-plus"></i>&nbsp;
         
-        <span class="pc">2023-04-14 21:35:50</span>
-        <span class="mobile">2023-04-14 21:35</span>
+        <span class="pc">2023-04-16 13:12:45</span>
+        <span class="mobile">2023-04-16 13:12</span>
     </span>
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-04-09 20:10:05</span>
+        <span class="pc">2023-04-16 14:16:41</span>
     </span>
     
     
@@ -203,19 +201,16 @@
             <div class="article-content keep-markdown-body">
                 
 
-                <p>Welcome to <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+                <p>给博客添加评论区</p>
+<p>给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。</p>
+<p>本博客使用的评论区是 waline。</p>
+<p>域名解析时这样配置：<br>主机名：comment    类型：CNAME    对应值：cname.vercel-dns.com(注：主机名一定不要写 @ 或 www，如果这样配置，那你在浏览器输入你购买的域名后，会显示 waline 的评论区，而博客中的内容不会显示。我看了网上很多教程，这一步讲的人很少)</p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA1.16ewbn2ndgw0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区1.16ewbn2ndgw0.webp<i class="fas fa-external-link-alt"></i></a></p>
+<p>我是通过 vercel 来部署 waline ，你通过 waline 官方教程一步一步操作，会遇到给你创建的项目设置域名，Domain：comment.yourdomain.com（yourdomain.com 就是你购买的域名，你的顶级域名不一定是.com，有可能是.cn&#x2F;.top等，顶级域名和域名主体都设置成你购买的域名就行）</p>
+<p>主体配置文件 _config 修改一下（每个主题的配置文件可能会有所不同，我使用的是 Hexo 中的 keep 主题）<br>comment：<br>enable: true<br>use: waline<br>server_url: <a class="link"   target="_blank" rel="noopener" href="https://comment.yourname.com/" >https://comment.yourname.com<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA2.6b1exy3fg7k0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区2.6b1exy3fg7k0.webp<i class="fas fa-external-link-alt"></i></a></p>
+<p>此处 html 代码其实不需要看，上面设置好之后，在你创建博客的根目录下运行以下命令，waline 评论区便可以设置成功。<br>$ hexo clean<br>$ hexo g<br>$ hexo d</p>
+<p>第一次使用需要注册，并登录，waline 会默认把第一个注册的人认为评论的管理员。</p>
 
             </div>
 
@@ -226,29 +221,14 @@
             
                 <div class="article-nav">
                     
-                        <div class="article-prev">
-                            <a class="prev"
-                               rel="prev"
-                               href="/2023/04/14/%E5%86%99%E5%8D%9A%E5%AE%A2/"
-                            >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                                <span class="title flex-center">
-                                <span class="post-nav-title-item">写博客</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                            </a>
-                        </div>
-                    
                     
                         <div class="article-next">
                             <a class="next"
                                rel="next"
-                               href="/2023/04/13/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"
+                               href="/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"
                             >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">我为什么创建博客</span>
+                                <span class="post-nav-title-item">插入音乐测试</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                                 <span class="right arrow-icon flex-center">
