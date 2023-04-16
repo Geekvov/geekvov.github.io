@@ -9,6 +9,8 @@
     
     <title>
         
+            给博客添加评论区 |
+        
         布谷的博客
     </title>
     
@@ -153,7 +155,7 @@
         <div class="article-content-container">
 
             <div class="article-title">
-                <span class="title-hover-animation"></span>
+                <span class="title-hover-animation">给博客添加评论区</span>
             </div>
 
             
@@ -181,7 +183,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-04-16 14:16:41</span>
+        <span class="pc">2023-04-16 14:52:20</span>
     </span>
     
     
@@ -201,15 +203,13 @@
             <div class="article-content keep-markdown-body">
                 
 
-                <p>给博客添加评论区</p>
-<p>给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。</p>
+                <p>给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。</p>
 <p>本博客使用的评论区是 waline。</p>
 <p>域名解析时这样配置：<br>主机名：comment    类型：CNAME    对应值：cname.vercel-dns.com(注：主机名一定不要写 @ 或 www，如果这样配置，那你在浏览器输入你购买的域名后，会显示 waline 的评论区，而博客中的内容不会显示。我看了网上很多教程，这一步讲的人很少)</p>
-<p><a class="link"   target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA1.16ewbn2ndgw0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区1.16ewbn2ndgw0.webp<i class="fas fa-external-link-alt"></i></a></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/p99cm3n"><img src="https://s1.ax1x.com/2023/04/16/p99cm3n.png" alt="p99cm3n.png"></a></p>
 <p>我是通过 vercel 来部署 waline ，你通过 waline 官方教程一步一步操作，会遇到给你创建的项目设置域名，Domain：comment.yourdomain.com（yourdomain.com 就是你购买的域名，你的顶级域名不一定是.com，有可能是.cn&#x2F;.top等，顶级域名和域名主体都设置成你购买的域名就行）</p>
 <p>主体配置文件 _config 修改一下（每个主题的配置文件可能会有所不同，我使用的是 Hexo 中的 keep 主题）<br>comment：<br>enable: true<br>use: waline<br>server_url: <a class="link"   target="_blank" rel="noopener" href="https://comment.yourname.com/" >https://comment.yourname.com<i class="fas fa-external-link-alt"></i></a></p>
-<p><a class="link"   target="_blank" rel="noopener" href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA2.6b1exy3fg7k0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区2.6b1exy3fg7k0.webp<i class="fas fa-external-link-alt"></i></a></p>
-<p>此处 html 代码其实不需要看，上面设置好之后，在你创建博客的根目录下运行以下命令，waline 评论区便可以设置成功。<br>$ hexo clean<br>$ hexo g<br>$ hexo d</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/p99cncq"><img src="https://s1.ax1x.com/2023/04/16/p99cncq.png" alt="p99cncq.png"></a><br>此处 html 代码其实不需要看，上面设置好之后，在你创建博客的根目录下运行以下命令，waline 评论区便可以设置成功。<br>$ hexo clean<br>$ hexo g<br>$ hexo d</p>
 <p>第一次使用需要注册，并登录，waline 会默认把第一个注册的人认为评论的管理员。</p>
 
             </div>
@@ -221,14 +221,29 @@
             
                 <div class="article-nav">
                     
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2023/04/16/%E5%BE%88%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B9%90%E9%98%9F%EF%BC%9A%E4%BA%94%E6%9D%A1%E4%BA%BA/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">很有趣的乐队：五条人</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
                     
                         <div class="article-next">
                             <a class="next"
                                rel="next"
-                               href="/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"
+                               href="/2023/04/14/%E6%AF%8F%E6%97%A5%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F/"
                             >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">插入音乐测试</span>
+                                <span class="post-nav-title-item">每日音乐鉴赏</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                                 <span class="right arrow-icon flex-center">

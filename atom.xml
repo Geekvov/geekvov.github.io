@@ -6,7 +6,7 @@
   <link href="https://geekvov.github.io/atom.xml" rel="self"/>
   
   <link href="https://geekvov.github.io/"/>
-  <updated>2023-04-16T06:16:41.039Z</updated>
+  <updated>2023-04-16T06:52:02.121Z</updated>
   <id>https://geekvov.github.io/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://geekvov.github.io/2023/04/16/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/"/>
-    <id>https://geekvov.github.io/2023/04/16/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</id>
-    <published>2023-04-16T05:12:45.182Z</published>
-    <updated>2023-04-16T06:16:41.039Z</updated>
+    <title>很有趣的乐队：五条人</title>
+    <link href="https://geekvov.github.io/2023/04/16/%E5%BE%88%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B9%90%E9%98%9F%EF%BC%9A%E4%BA%94%E6%9D%A1%E4%BA%BA/"/>
+    <id>https://geekvov.github.io/2023/04/16/%E5%BE%88%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B9%90%E9%98%9F%EF%BC%9A%E4%BA%94%E6%9D%A1%E4%BA%BA/</id>
+    <published>2023-04-16T06:42:57.030Z</published>
+    <updated>2023-04-16T06:52:02.121Z</updated>
     
-    <content type="html"><![CDATA[<p>给博客添加评论区</p><p>给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。</p><p>本博客使用的评论区是 waline。</p><p>域名解析时这样配置：<br>主机名：comment    类型：CNAME    对应值：cname.vercel-dns.com(注：主机名一定不要写 @ 或 www，如果这样配置，那你在浏览器输入你购买的域名后，会显示 waline 的评论区，而博客中的内容不会显示。我看了网上很多教程，这一步讲的人很少)</p><p><a class="link"   href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA1.16ewbn2ndgw0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区1.16ewbn2ndgw0.webp<i class="fas fa-external-link-alt"></i></a></p><p>我是通过 vercel 来部署 waline ，你通过 waline 官方教程一步一步操作，会遇到给你创建的项目设置域名，Domain：comment.yourdomain.com（yourdomain.com 就是你购买的域名，你的顶级域名不一定是.com，有可能是.cn&#x2F;.top等，顶级域名和域名主体都设置成你购买的域名就行）</p><p>主体配置文件 _config 修改一下（每个主题的配置文件可能会有所不同，我使用的是 Hexo 中的 keep 主题）<br>comment：<br>enable: true<br>use: waline<br>server_url: <a class="link"   href="https://comment.yourname.com/" >https://comment.yourname.com<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/%E8%AF%84%E8%AE%BA%E5%8C%BA2.6b1exy3fg7k0.webp" >https://cdn.staticaly.com/gh/Geekvov/Blog-image@main/20230416/评论区2.6b1exy3fg7k0.webp<i class="fas fa-external-link-alt"></i></a></p><p>此处 html 代码其实不需要看，上面设置好之后，在你创建博客的根目录下运行以下命令，waline 评论区便可以设置成功。<br>$ hexo clean<br>$ hexo g<br>$ hexo d</p><p>第一次使用需要注册，并登录，waline 会默认把第一个注册的人认为评论的管理员。</p>]]></content>
+    <content type="html"><![CDATA[<p>五条人乐队<br>团队成员：仁科、阿茂，来自广东省海丰县。很接地气的乐队，从乐队的 Logo 便可以看出，一个随风飘扬的红色塑料袋。仁科说：因为我们的音乐有一种 “塑料感”，所谓塑料，就是一种赤裸的真实。</p><iframe src="//player.bilibili.com/player.html?aid=9164781&bvid=BV1Qx411C7F5&cid=15141976&page=1" width="300" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;给博客添加评论区&lt;/p&gt;
-&lt;p&gt;给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。&lt;/p&gt;
-&lt;p&gt;本博客使用的评论区是 waline。&lt;</summary>
+    <summary type="html">&lt;p&gt;五条人乐队&lt;br&gt;团队成员：仁科、阿茂，来自广东省海丰县。很接地气的乐队，从乐队的 Logo 便可以看出，一个随风飘扬的红色塑料袋。仁科说：因为我们的音乐有一种 “塑料感”，所谓塑料，就是一种赤裸的真实。&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili</summary>
       
     
     
@@ -39,18 +38,20 @@
   </entry>
   
   <entry>
-    <title>插入音乐测试</title>
-    <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"/>
-    <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-04-14T13:56:32.069Z</published>
-    <updated>2023-04-09T15:13:40.647Z</updated>
+    <title>给博客添加评论区</title>
+    <link href="https://geekvov.github.io/2023/04/16/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/"/>
+    <id>https://geekvov.github.io/2023/04/16/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</id>
+    <published>2023-04-16T05:12:45.182Z</published>
+    <updated>2023-04-16T06:52:20.061Z</updated>
     
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1457750078&auto=1&height=66"></iframe>]]></content>
+    <content type="html"><![CDATA[<p>给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。</p><p>本博客使用的评论区是 waline。</p><p>域名解析时这样配置：<br>主机名：comment    类型：CNAME    对应值：cname.vercel-dns.com(注：主机名一定不要写 @ 或 www，如果这样配置，那你在浏览器输入你购买的域名后，会显示 waline 的评论区，而博客中的内容不会显示。我看了网上很多教程，这一步讲的人很少)</p><p><a href="https://imgse.com/i/p99cm3n"><img src="https://s1.ax1x.com/2023/04/16/p99cm3n.png" alt="p99cm3n.png"></a></p><p>我是通过 vercel 来部署 waline ，你通过 waline 官方教程一步一步操作，会遇到给你创建的项目设置域名，Domain：comment.yourdomain.com（yourdomain.com 就是你购买的域名，你的顶级域名不一定是.com，有可能是.cn&#x2F;.top等，顶级域名和域名主体都设置成你购买的域名就行）</p><p>主体配置文件 _config 修改一下（每个主题的配置文件可能会有所不同，我使用的是 Hexo 中的 keep 主题）<br>comment：<br>enable: true<br>use: waline<br>server_url: <a class="link"   href="https://comment.yourname.com/" >https://comment.yourname.com<i class="fas fa-external-link-alt"></i></a></p><p><a href="https://imgse.com/i/p99cncq"><img src="https://s1.ax1x.com/2023/04/16/p99cncq.png" alt="p99cncq.png"></a><br>此处 html 代码其实不需要看，上面设置好之后，在你创建博客的根目录下运行以下命令，waline 评论区便可以设置成功。<br>$ hexo clean<br>$ hexo g<br>$ hexo d</p><p>第一次使用需要注册，并登录，waline 会默认把第一个注册的人认为评论的管理员。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1457</summary>
+    <summary type="html">&lt;p&gt;给博客更换主题后，具体如何进行配置？官方会给你相应的“主题使用指南”，里面也包括如何给博客添加评论区。具体操作我不在这边演示，下面我只展示在给博客添加评论区时我遇到的问题，以及解决的方法。&lt;/p&gt;
+&lt;p&gt;本博客使用的评论区是 waline。&lt;/p&gt;
+&lt;p&gt;域名解析时这样配置</summary>
       
     
     
@@ -79,13 +80,33 @@
   </entry>
   
   <entry>
+    <title>插入音乐测试</title>
+    <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"/>
+    <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/</id>
+    <published>2023-04-14T13:56:32.069Z</published>
+    <updated>2023-04-09T15:13:40.647Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1457750078&auto=1&height=66"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1457</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>插入视频测试</title>
     <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
     <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</id>
     <published>2023-04-14T13:56:32.065Z</published>
-    <updated>2023-04-09T16:31:55.002Z</updated>
+    <updated>2023-04-16T06:41:28.716Z</updated>
     
-    <content type="html"><![CDATA[<p>在博客里直接看视频，清晰度不是特别高，需要登入哔哩哔哩账号，才可以观看高清视频。（想不到这两个视频是同时播放的，需要手动关闭另一个视频，单独观看一个视频。）</p><iframe src="//player.bilibili.com/player.html?aid=909865620&bvid=BV1fM4y117bX&cid=1089477191&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>下面的视频中，那个 “他” 出现了，很有趣的男孩。</p><iframe src="//player.bilibili.com/player.html?aid=484859660&bvid=BV1vT411W7ac&cid=1089491591&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+    <content type="html"><![CDATA[<p>在博客里直接看视频，清晰度不是特别高，需要登入哔哩哔哩账号，才可以观看高清视频。（想不到这两个视频是同时播放的，需要手动关闭另一个视频，单独观看一个视频。）</p><iframe src="//player.bilibili.com/player.html?aid=909865620&bvid=BV1fM4y117bX&cid=1089477191&page=1"width="300" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false"> </iframe><p>下面的视频中，那个 “他” 出现了，很有趣的男孩。</p><iframe src="//player.bilibili.com/player.html?aid=484859660&bvid=BV1vT411W7ac&cid=1089491591&page=1" width="300" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false"> </iframe>]]></content>
     
     
       
