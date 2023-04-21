@@ -6,7 +6,7 @@
   <link href="https://geekvov.github.io/atom.xml" rel="self"/>
   
   <link href="https://geekvov.github.io/"/>
-  <updated>2023-04-21T05:58:24.739Z</updated>
+  <updated>2023-04-21T06:03:26.241Z</updated>
   <id>https://geekvov.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://geekvov.github.io/2023/04/21/Typora%E5%AD%97%E4%BD%93%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/"/>
     <id>https://geekvov.github.io/2023/04/21/Typora%E5%AD%97%E4%BD%93%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/</id>
     <published>2023-04-21T05:06:51.981Z</published>
-    <updated>2023-04-21T05:58:24.739Z</updated>
+    <updated>2023-04-21T06:03:26.241Z</updated>
     
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=557413813&auto=1&height=66"></iframe>设置 Typora 文中字体的颜色有很多种方法：1. 安装 Autuhotkey，在其根目录下常见.txt文件，复制以下内容，并把后缀名更改为.ahk ：![autohotkey.png](https://s2.loli.net/2023/04/21/3bYEW1BpzI2McxD.png)双击运行，在 Typora 中选中你想设置颜色的字体，使用你设置的快捷键，便可以对选中的字体更改颜色。2. textcolor 语法：![textcolor.png](https://s2.loli.net/2023/04/21/8sJK3REYiST1oXh.png)<ol start="3"><li>span style 语法：<br><img src="https://s2.loli.net/2023/04/21/jpNP8au1ce59AQh.png" alt="span style.png"></li></ol><p>有三种方式，都可以给 Typora 文中的字体修改颜色，但为什么只用了第三种呢？因为第一、第二种方式，虽然可以给字体设置颜色，但同步到Hexo部署的博客中，字体颜色不会显示出来，还是黑色字体。而第三种方式，字体的颜色是可以同步到博客里面的，并且可以正常显示。</p><p>上一篇博文的字体颜色设置如下：<br><img src="https://s2.loli.net/2023/04/21/8ETihuDrx4nGvWI.png" alt="字体颜色设置.png"></p><p><strong>在寻找解决方法的过程中，不断的试错，始终没有办法让Typora中字体颜色在博客中显示出来。于是我请教了一下阿虚同学(尊称：阿虚大佬)，阿虚大佬给我提供了一个思路，顺着这个思路，把才把这个问题解决掉。(问题解决的那一瞬间，真的很开心！)</strong><br><img src="https://s2.loli.net/2023/04/21/BjS3DQfNZ5dCIeT.png" alt="与阿虚大佬的交流.png"></p><p>以上文章，希望对大家都有所帮助，因为这才是这篇文章的价值所在！</p><p>ps：<br>(1) Autohotkey，所用的文件：<a class="link"   href="https://gulugu.lanzouy.com/iLomI0tkzufa" >https://gulugu.lanzouy.com/iLomI0tkzufa<i class="fas fa-external-link-alt"></i></a><br>(2) 阿虚同学的微信公众号我是从大学期间开始关注的，算是资深老粉，很喜欢他写的每一篇文章，算互联网中的一股清流。<br>(3) 这是他的资源库：<a class="link"   href="https://axutongxue.net/" >https://axutongxue.net/<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=557413813&auto=1&height=66"></iframe><p>设置 Typora 文中字体的颜色有很多种方法：</p><ol><li>安装 Autuhotkey，在其根目录下常见.txt文件，复制以下内容，并把后缀名更改为.ahk ：</li></ol><p><img src="https://s2.loli.net/2023/04/21/3bYEW1BpzI2McxD.png" alt="autohotkey.png"></p><p>双击运行，在 Typora 中选中你想设置颜色的字体，使用你设置的快捷键，便可以对选中的字体更改颜色。</p><ol start="2"><li>textcolor 语法：</li></ol><p><img src="https://s2.loli.net/2023/04/21/8sJK3REYiST1oXh.png" alt="textcolor.png"></p><ol start="3"><li>span style 语法：</li></ol><p><img src="https://s2.loli.net/2023/04/21/jpNP8au1ce59AQh.png" alt="span style.png"></p><p>有三种方式，都可以给 Typora 文中的字体修改颜色，但为什么只用了第三种呢？因为第一、第二种方式，虽然可以给字体设置颜色，但同步到Hexo部署的博客中，字体颜色不会显示出来，还是黑色字体。而第三种方式，字体的颜色是可以同步到博客里面的，并且可以正常显示。</p><hr><p>上一篇博文的字体颜色设置如下：</p><p><img src="https://s2.loli.net/2023/04/21/8ETihuDrx4nGvWI.png" alt="字体颜色设置.png"></p><p><strong>在寻找解决方法的过程中，不断的试错，始终没有办法让Typora中字体颜色在博客中显示出来。于是我请教了一下阿虚同学(尊称：阿虚大佬)，阿虚大佬给我提供了一个思路，顺着这个思路，把才把这个问题解决掉。(问题解决的那一瞬间，真的很开心！)</strong></p><p><img src="https://s2.loli.net/2023/04/21/BjS3DQfNZ5dCIeT.png" alt="与阿虚大佬的交流.png"></p><p>以上文章，希望对大家都有所帮助，因为这才是这篇文章的价值所在！</p><hr><p>ps：<br>(1) Autohotkey，所用的文件：<a class="link"   href="https://gulugu.lanzouy.com/iLomI0tkzufa" >https://gulugu.lanzouy.com/iLomI0tkzufa<i class="fas fa-external-link-alt"></i></a><br>(2) 阿虚同学的微信公众号我是从大学期间开始关注的，算是资深老粉，很喜欢他写的每一篇文章，算互联网中的一股清流。<br>(3) 这是他的资源库：<a class="link"   href="https://axutongxue.net/" >https://axutongxue.net/<i class="fas fa-external-link-alt"></i></a></p>]]></content>
     
     
       
@@ -84,7 +84,7 @@
     <published>2023-04-19T16:37:26.748Z</published>
     <updated>2023-04-19T18:27:19.266Z</updated>
     
-    <content type="html"><![CDATA[<p>1.工具准备：<br>Git for Windows: <a class="link"   href="https://git-scm.com/downloads" >Git - Downloads (git-scm.com)<i class="fas fa-external-link-alt"></i></a><br>node.js: <a class="link"   href="https://nodejs.org/en%EF%BC%88%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90%E7%89%88%E6%9C%AC%EF%BC%89" >https://nodejs.org/en（安装推荐版本）<i class="fas fa-external-link-alt"></i></a><br>GitHub 账户注册</p><p>2.在 GitHub 中创建 Repository ,Repository name为 username.github.io，Public 和 initialize this repository with a README前面的复选框都得勾起来。</p><p>3.在Blog文件夹下建立一个文件夹，名为“Hexo”。鼠标右键点击 Git Bash Here。在弹出的窗口中依次输入：<br>（1）npm install -g hexo-cli<br>（2）hexo init<br>（3）hexo s (此处默认端口为4000，此端口过于频繁会导致网页加载缓慢。可以通过以下方法来永久更换默认端口)<br><img src="https://s2.loli.net/2023/04/20/Why694zFnPoCjKa.png" alt="永久修改默认端口.png"><br>          打开此文件，找到“ hexo.config.server &#x3D; Object.assign，port: ****”  ，此处端口更改后，便是永久更改。<br>（4）hexo clean<br>（5）hexo g<br>（6）hexo d<br>（7）npm install –save hexo-deployer-git （如果操作过程中遇到了“Error Deployer not found: git”，便运行此命令）<br>（8）在部署的过程中，Hexo文件夹下面会自动生成一些文件，找到_config.yml文件，通过Notepad 工具打开，找到 deploy，在此处需要新增加一些信息：<br><img src="https://s2.loli.net/2023/04/20/K6He7Rcyh4sEmrx.png" alt="deployer1.png"><br><font color='red'><strong>注：</strong></font>repository:    #（链接地址的获取是：在 GitHub 上点击你刚才创建的 Repository，点击“Code”，下面会有 HTTPS、         SSH、GitHub CLI。你可以复制 HTTPS &#x2F; SSH 的地址，但最好选择SSH，同步代码的时候会方便一些；接着粘贴到这里，然后把 git clone 这两个单词删除掉，这个就是此处repository的链接地址。)<br> ( 9 )  博客根目录的配置文件(__config.yml)，进行修改后，都需要进行这三步操作：<br>hexo clean<br>hexo g<br>hexo d</p><p>4.如何才能把博客的本地文件同步到你在 GitHub 创建的 Repository里面呢？<br>这需要获取SSH。<br>(1)设置用户信息：<br>git config  –global user.name  ______（此处填写 GitHub 用户名）<br>git config  –global user.email _____（此处填写 GitHub绑定的邮箱）<br>(2)配置SSH key：<br>在博客的根目录下，如：D:\Blog\hexo，鼠标右键 Git Bash Here，<br>ssh-Keygen -t rsa -C “你绑定github的邮箱”<br>根据提示导到此文件。<br>(3) 复制 key：<br>获取的ssh有两个文件，id_rsa 和 id_rsa.pub。登录“GitHub”，右上角用户图标，找到 “Settings”，点击后找到 “SSH and GPG keys” ，再点击“New SSH key”<br>(4) 填写 key：<br>复制 id_rsa.pub 里面的内容，粘贴到这里。<br>(5) 测试连接是否成功：<br>输入 ssh -T <a class="link"   href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#99;&#x6f;&#x6d;" >&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#99;&#x6f;&#x6d;<i class="fas fa-external-link-alt"></i></a>，看到 “successfully”,说明上面的设置成功相应。</p><p><strong><font color='red'>第四操作是为了避免万一哪天博客本地文件出现了问题，由于你前期已经把搭建博客的文件都同步到 GitHub 的 Repository，这样不会造成你辛辛苦苦搭建的博客，突然无法进行访问。</font></strong></p><p>博客的默认主题会比较简陋，想设置好看的主题可以在这里寻找自己喜欢的主题，<a class="link"   href="https://hexo.io/themes%E3%80%82%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%B8%BB%E9%A2%98%E6%95%88%E6%9E%9C%EF%BC%8C%E7%82%B9%E5%87%BB%E6%96%87%E5%AD%97%E5%8F%AF%E4%BB%A5%E6%9F%A5%E7%9C%8B%E6%AD%A4%E4%B8%BB%E9%A2%98%E7%9A%84%E5%85%B7%E4%BD%93%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E3%80%82%E5%9C%A8%E8%BF%99%E9%87%8C%E6%88%91%E4%BE%BF%E4%B8%8D%E4%B8%80%E4%B8%80%E8%B5%98%E8%BF%B0%E3%80%82" >https://hexo.io/themes。点击图片可以预览主题效果，点击文字可以查看此主题的具体使用方法。在这里我便不一一赘述。<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    <content type="html"><![CDATA[<p>1.工具准备：<br>Git for Windows: <a class="link"   href="https://git-scm.com/downloads" >Git - Downloads (git-scm.com)<i class="fas fa-external-link-alt"></i></a><br>node.js: <a class="link"   href="https://nodejs.org/en%EF%BC%88%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90%E7%89%88%E6%9C%AC%EF%BC%89" >https://nodejs.org/en（安装推荐版本）<i class="fas fa-external-link-alt"></i></a><br>GitHub 账户注册</p><p>2.在 GitHub 中创建 Repository ,Repository name为 username.github.io，Public 和 initialize this repository with a README前面的复选框都得勾起来。</p><p>3.在Blog文件夹下建立一个文件夹，名为“Hexo”。鼠标右键点击 Git Bash Here。在弹出的窗口中依次输入：<br>（1）npm install -g hexo-cli<br>（2）hexo init<br>（3）hexo s (此处默认端口为4000，此端口过于频繁会导致网页加载缓慢。可以通过以下方法来永久更换默认端口)<br><img src="https://s2.loli.net/2023/04/20/Why694zFnPoCjKa.png" alt="永久修改默认端口.png"><br>          打开此文件，找到“ hexo.config.server &#x3D; Object.assign，port: ****”  ，此处端口更改后，便是永久更改。<br>（4）hexo clean<br>（5）hexo g<br>（6）hexo d<br>（7）npm install –save hexo-deployer-git （如果操作过程中遇到了“Error Deployer not found: git”，便运行此命令）<br>（8）在部署的过程中，Hexo文件夹下面会自动生成一些文件，找到_config.yml文件，通过Notepad 工具打开，找到 deploy，在此处需要新增加一些信息：<br><img src="https://s2.loli.net/2023/04/20/K6He7Rcyh4sEmrx.png" alt="deployer1.png"><br><font color='red'><strong>注：</strong></font>repository:    #（链接地址的获取是：在 GitHub 上点击你刚才创建的 Repository，点击“Code”，下面会有 HTTPS、         SSH、GitHub CLI。你可以复制 HTTPS &#x2F; SSH 的地址，但最好选择SSH，同步代码的时候会方便一些；接着粘贴到这里，然后把 git clone 这两个单词删除掉，这个就是此处repository的链接地址。)<br> ( 9 )  博客根目录的配置文件(__config.yml)，进行修改后，都需要进行这三步操作：<br>hexo clean<br>hexo g<br>hexo d</p><p>4.如何才能把博客的本地文件同步到你在 GitHub 创建的 Repository里面呢？<br>这需要获取SSH。<br>(1)设置用户信息：<br>git config  –global user.name  ______（此处填写 GitHub 用户名）<br>git config  –global user.email _____（此处填写 GitHub绑定的邮箱）<br>(2)配置SSH key：<br>在博客的根目录下，如：D:\Blog\hexo，鼠标右键 Git Bash Here，<br>ssh-Keygen -t rsa -C “你绑定github的邮箱”<br>根据提示导到此文件。<br>(3) 复制 key：<br>获取的ssh有两个文件，id_rsa 和 id_rsa.pub。登录“GitHub”，右上角用户图标，找到 “Settings”，点击后找到 “SSH and GPG keys” ，再点击“New SSH key”<br>(4) 填写 key：<br>复制 id_rsa.pub 里面的内容，粘贴到这里。<br>(5) 测试连接是否成功：<br>输入 ssh -T <a class="link"   href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;" >&#x67;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;<i class="fas fa-external-link-alt"></i></a>，看到 “successfully”,说明上面的设置成功相应。</p><p><strong><font color='red'>第四操作是为了避免万一哪天博客本地文件出现了问题，由于你前期已经把搭建博客的文件都同步到 GitHub 的 Repository，这样不会造成你辛辛苦苦搭建的博客，突然无法进行访问。</font></strong></p><p>博客的默认主题会比较简陋，想设置好看的主题可以在这里寻找自己喜欢的主题，<a class="link"   href="https://hexo.io/themes%E3%80%82%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%B8%BB%E9%A2%98%E6%95%88%E6%9E%9C%EF%BC%8C%E7%82%B9%E5%87%BB%E6%96%87%E5%AD%97%E5%8F%AF%E4%BB%A5%E6%9F%A5%E7%9C%8B%E6%AD%A4%E4%B8%BB%E9%A2%98%E7%9A%84%E5%85%B7%E4%BD%93%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E3%80%82%E5%9C%A8%E8%BF%99%E9%87%8C%E6%88%91%E4%BE%BF%E4%B8%8D%E4%B8%80%E4%B8%80%E8%B5%98%E8%BF%B0%E3%80%82" >https://hexo.io/themes。点击图片可以预览主题效果，点击文字可以查看此主题的具体使用方法。在这里我便不一一赘述。<i class="fas fa-external-link-alt"></i></a></p>]]></content>
     
     
       
@@ -161,26 +161,6 @@
   </entry>
   
   <entry>
-    <title>每日音乐鉴赏</title>
-    <link href="https://geekvov.github.io/2023/04/14/%E6%AF%8F%E6%97%A5%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F/"/>
-    <id>https://geekvov.github.io/2023/04/14/%E6%AF%8F%E6%97%A5%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F/</id>
-    <published>2023-04-14T13:56:32.069Z</published>
-    <updated>2023-04-14T16:03:47.820Z</updated>
-    
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="//music.163.com/outchain/player?type=2&id=441437222&auto=1&height=200"></iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=100% src=&quot;//music.163.com/outchain/player?type=2&amp;id=4</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>插入音乐测试</title>
     <link href="https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/"/>
     <id>https://geekvov.github.io/2023/04/14/%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%B5%8B%E8%AF%95/</id>
@@ -193,6 +173,26 @@
       
       
     <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1457</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>每日音乐鉴赏</title>
+    <link href="https://geekvov.github.io/2023/04/14/%E6%AF%8F%E6%97%A5%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F/"/>
+    <id>https://geekvov.github.io/2023/04/14/%E6%AF%8F%E6%97%A5%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F/</id>
+    <published>2023-04-14T13:56:32.069Z</published>
+    <updated>2023-04-14T16:03:47.820Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="//music.163.com/outchain/player?type=2&id=441437222&auto=1&height=200"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=100% src=&quot;//music.163.com/outchain/player?type=2&amp;id=4</summary>
       
     
     
