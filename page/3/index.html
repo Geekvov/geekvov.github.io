@@ -9,8 +9,6 @@
     
     <title>
         
-            Typora 字体的颜色设置 |
-        
         布谷的博客
     </title>
     
@@ -56,7 +54,7 @@
 
     
 
-    <div class="page-main-content">
+    <div class="page-main-content is-home">
 
         <div class="page-main-content-top">
             
@@ -79,7 +77,7 @@
                 <ul class="menu-list">
                     
                         <li class="menu-item">
-                            <a class=""
+                            <a class="active"
                                href="/"
                             >
                                 首页
@@ -124,7 +122,7 @@
         <ul class="drawer-menu-list">
             
                 <li class="drawer-menu-item flex-center">
-                    <a class=""
+                    <a class="active"
                        href="/">首页</a>
                 </li>
             
@@ -153,208 +151,55 @@
             <div class="main-content">
 
                 
-                    <div class="fade-in-down-animation">
-    <div class="post-page-container">
-        <div class="article-content-container">
-
-            <div class="article-title">
-                <span class="title-hover-animation">Typora 字体的颜色设置</span>
-            </div>
-
-            
-                <div class="article-header">
-                    <div class="avatar">
-                        <img src="/images/logo.svg">
-                    </div>
-                    <div class="info">
-                        <div class="author">
-                            <span class="name">Cuckoo</span>
-                            
-                                <span class="author-label">Lv3</span>
-                            
-                        </div>
-                        <div class="meta-info">
-                            
-<div class="article-meta-info">
-    <span class="article-date article-meta-item">
+                    <div class="home-content-container fade-in-down-animation">
+    <ul class="home-article-list">
         
-            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
-        
-        <span class="pc">2023-04-21 13:06:51</span>
-        <span class="mobile">2023-04-21 13:06</span>
-    </span>
-    
-        <span class="article-update-date article-meta-item">
-        <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-04-21 14:09:12</span>
-    </span>
-    
-    
-    
+            <li class="home-article-item">
 
-    
-    
-        <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>413 字</span>
-        </span>
-    
-    
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            
-
-            <div class="article-content keep-markdown-body">
                 
 
-                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=557413813&auto=1&height=66"></iframe>
+                <h3 class="home-article-title">
+                    <a href="/2023/04/13/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+                        我为什么创建博客
+                    </a>
+                </h3>
 
-<p>设置 Typora 文中字体的颜色有很多种方法：</p>
-<ol>
-<li>安装 Autuhotkey，在其根目录下新建 .txt 文件，复制以下内容，并把后缀名更改为 .ahk ：</li>
-</ol>
-<p><img src="https://s2.loli.net/2023/04/21/3bYEW1BpzI2McxD.png" alt="autohotkey.png"></p>
-<p>双击运行，在 Typora 中选中你想设置颜色的字体，使用你设置的快捷键，便可以对选中的字体更改颜色。</p>
-<ol start="2">
-<li>textcolor 语法：</li>
-</ol>
-<p><img src="https://s2.loli.net/2023/04/21/8sJK3REYiST1oXh.png" alt="textcolor.png"></p>
-<ol start="3">
-<li>span style 语法：</li>
-</ol>
-<p><img src="https://s2.loli.net/2023/04/21/jpNP8au1ce59AQh.png" alt="span style.png"></p>
-<p>有三种方式，都可以给 Typora 文中的字体修改颜色，但为什么只用了第三种呢？因为第一、第二种方式，虽然可以给字体设置颜色，但同步到Hexo部署的博客中，字体颜色不会显示出来，还是黑色字体。而第三种方式，字体的颜色是可以同步到博客里面的，并且可以正常显示。</p>
-<hr>
-<p>上一篇博文的字体颜色设置如下：</p>
-<p><img src="https://s2.loli.net/2023/04/21/8ETihuDrx4nGvWI.png" alt="字体颜色设置.png"></p>
-<p><strong>在寻找解决方法的过程中，不断的试错，始终没有办法让Typora中字体颜色在博客中显示出来。于是我请教了一下阿虚同学(尊称：阿虚大佬)，阿虚大佬给我提供了一个思路，顺着这个思路，把才把这个问题解决掉。(问题解决的那一瞬间，真的很开心！)</strong></p>
-<p><img src="https://s2.loli.net/2023/04/21/BjS3DQfNZ5dCIeT.png" alt="与阿虚大佬的交流.png"></p>
-<p>以上文章，希望对大家都有所帮助，因为这才是这篇文章的价值所在！</p>
-<hr>
-<p>ps：<br>(1) Autohotkey，所用的文件：<a class="link"   target="_blank" rel="noopener" href="https://gulugu.lanzouy.com/iLomI0tkzufa" >https://gulugu.lanzouy.com/iLomI0tkzufa<i class="fas fa-external-link-alt"></i></a><br>(2) 阿虚同学的微信公众号我是从大学期间开始关注的，算是资深老粉，很喜欢他写的每一篇文章，算互联网中的一股清流。<br>(3) 这是他的资源库：<a class="link"   target="_blank" rel="noopener" href="https://axutongxue.net/" >https://axutongxue.net/<i class="fas fa-external-link-alt"></i></a></p>
-
-            </div>
-
-            
-                <div class="post-copyright-info">
+                <div class="home-article-content keep-markdown-body">
                     
-<div class="article-copyright-info-container">
-    <ul class="copyright-info-content">
-        <li class="post-title">
-            <span class="type">本文标题</span>：<span class="content">Typora 字体的颜色设置</span>
-        </li>
-        <li class="post-author">
-            <span class="type">本文作者</span>：<span class="content">Cuckoo</span>
-        </li>
-        <li class="post-time">
-            <span class="type">创建时间</span>：<span class="content">2023-04-21 13:06:51</span>
-        </li>
-        <li class="post-link">
-            <span class="type">本文链接</span>：<span class="content">2023/04/21/Typora字体的颜色设置/</span>
-        </li>
-        <li class="post-license">
-            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
-        </li>
+                        (1) 通过输出促进自己不断的输入（争取日日新，如果想偷懒，也可以周周新😃）；(2) 一天工作结束后，写博客可以轻微拨动一下自己那麻木的神经；(3) 在这娱乐的时代，我看到了传统博客的魅力，博客着重于内容，而不是娱乐（第一次听到 “博客” 一词，还...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Thu Apr 13 2023 20:33:17 GMT+0800">
+                2023-04-13
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/2023/04/13/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
     </ul>
-    <div class="copy-copyright-info flex-center tooltip" data-content="复制版权信息" data-offset-y="-2px">
-        <i class="fa-solid fa-copy"></i>
-    </div>
-</div>
 
-                </div>
-            
-
-            
-
-            
-                <div class="article-nav">
-                    
-                        <div class="article-prev">
-                            <a class="prev"
-                               rel="prev"
-                               href="/2023/04/22/%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E7%A4%BC%E8%8A%82/"
-                            >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                                <span class="title flex-center">
-                                <span class="post-nav-title-item"></span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                            </a>
-                        </div>
-                    
-                    
-                        <div class="article-next">
-                            <a class="next"
-                               rel="next"
-                               href="/2023/04/21/%E9%9F%B3%E4%B9%90%E5%88%86%E4%BA%AB%2020230421/"
-                            >
-                            <span class="title flex-center">
-                                <span class="post-nav-title-item">音乐分享</span>
-                                <span class="post-nav-item">下一篇</span>
-                            </span>
-                                <span class="right arrow-icon flex-center">
-                              <i class="fas fa-chevron-right"></i>
-                            </span>
-                            </a>
-                        </div>
-                    
-                </div>
-            
-
-            
-                <div class="comment-container">
-                    
-<div class="comments-container">
-    <div id="comments-anchor"></div>
-    <div class="comment-area-title">
-        <i class="fas fa-comments"></i>&nbsp;评论
-    </div>
+    <div class="home-paginator">
+        <div class="paginator">
     
-        
-            
+        <a class="prev btn"
+           href="/page/2/"
+        >上一页</a>
+    
 
-    <div class="waline-comment-container">
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline-meta.css"/>
-        <script data-pjax src="//cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"></script>
-        <div id="waline-comment"></div>
-        <script data-pjax>
-          function loadWaline() {
-            Waline.init({
-              el: '#waline-comment',
-              serverURL: 'https://comment.buguckoo.com',
-              lang: 'zh-CN' || 'zh-CN',
-              comment: '.post-comments-count',
-              reaction: 'false' === 'true'
-            })
-          }
-
-          if ('true' === 'true') {
-            setTimeout(() => {
-              loadWaline()
-            }, 1000)
-          } else {
-            window.addEventListener('DOMContentLoaded', loadWaline)
-          }
-        </script>
-    </div>
-
-
-
-        
     
 </div>
 
-                </div>
-            
-        </div>
-
-        
     </div>
 </div>
 
@@ -391,24 +236,6 @@
         </div>
     </div>
 
-    
-        <div class="post-tools">
-            <div class="post-tools-container">
-    <ul class="tools-list">
-        <!-- TOC aside toggle -->
-        
-
-        <!-- go comment -->
-        
-            <li class="tools-item flex-center go-to-comments">
-                <i class="fas fa-comment"></i>
-                <span class="post-comments-count"></span>
-            </li>
-        
-    </ul>
-</div>
-
-        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -500,6 +327,7 @@
 
 
 
+
 <script src="/js/utils.js"></script>
 
 <script src="/js/main.js"></script>
@@ -528,16 +356,6 @@
 
 
 <div class="post-scripts pjax">
-    
-        
-<script src="/js/post-helper.js"></script>
-
-        
-            
-<script src="/js/libs/anime.min.js"></script>
-
-        
-        
     
 </div>
 
